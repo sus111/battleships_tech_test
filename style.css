@@ -1,0 +1,23 @@
+#container{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  outline: 1px solid black;
+}
+
+.water{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  float: left;
+  background-color: #0099ff;
+}
+
+#ship {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}

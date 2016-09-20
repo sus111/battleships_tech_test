@@ -1,4 +1,4 @@
-# battleships_tech_test
+# Battleships Tech Test
 
 ```
 As a player
