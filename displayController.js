@@ -1,5 +1,4 @@
 var container = document.getElementById('character');
-var board = new Board();
 (function(exports){
 
 function DisplayController(){
@@ -10,12 +9,22 @@ DisplayController.prototype.drawMap = function () {
     for(var j=0; j < board.array[i].length; j++){
 
       if(parseInt(board.array[i][j]) === 0){
-        $('#container').append('<div class="water"></div>');
+        var x = i.toString();
+        var y = j.toString();
+        var waterTile = x + y;
+        $('#container').append('<div class= "water" id=' + "a" + waterTile + '></div>');
       }
     }
   }
 };
 
+DisplayController.prototype.updateTile = function(tile) {
+  console.log(tile);
+  document.getElementById(tile).setAttribute("class", "ship");
+};
+
 
 exports.DisplayController = DisplayController;
   })(this);
+//
+//
