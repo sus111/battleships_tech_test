@@ -18,13 +18,9 @@ DisplayController.prototype.drawMap = function () {
   }
 };
 
-DisplayController.prototype.updateTile = function(tile) {
-  console.log(tile);
-  document.getElementById(tile).setAttribute("class", "ship");
+DisplayController.prototype.updateTile = function(tile, newClass) {
+  document.getElementById(tile).setAttribute("class", newClass);
 };
-
 
 exports.DisplayController = DisplayController;
   })(this);
-//
-//

@@ -10,7 +10,7 @@
   width: 50px;
   position: relative;
   float: left;
-  background-color: #0099ff;
+  background-color: #4dd2ff;
   outline: 1px solid black;
 }
 
@@ -20,6 +20,15 @@
   position: relative;
   float: left;
   background-color: gray;
+  outline: 1px solid black;
+}
+
+.miss{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  float: left;
+  background-color: #000099;
   outline: 1px solid black;
 }
 
